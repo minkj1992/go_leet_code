@@ -1,3 +1,5 @@
+package leetcode100
+
 func romanToInt(s string) int {
 	n := len(s)
 	if n < 1 {

@@ -1,3 +1,5 @@
+package leetcode100
+
 import "math"
 
 func reverse(x int) int {

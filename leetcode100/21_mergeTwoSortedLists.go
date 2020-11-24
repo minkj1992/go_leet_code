@@ -1,12 +1,12 @@
+package leetcode100
+
 // https://leetcode.com/problems/merge-two-sorted-lists/
 
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
+// ListNode : Definition for singly-linked list.
+type ListNode struct {
+	Val  int
+	Next *ListNode
+}
 
 // recursive
 func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
@@ -25,7 +25,7 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 }
 
 // non recursive
-func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
+func mergeTwoLists2(l1 *ListNode, l2 *ListNode) *ListNode {
 	res := &ListNode{}
 	cur := res
 	for l1 != nil || l2 != nil {

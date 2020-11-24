@@ -1,3 +1,5 @@
+package leetcode100
+
 func isValid(s string) bool {
 	if s == "" {
 		return true

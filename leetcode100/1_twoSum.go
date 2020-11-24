@@ -1,3 +1,5 @@
+package leetcode100
+
 func twoSum(nums []int, target int) []int {
 	indexes := make(map[int]int, len(nums))
 	for i, v := range nums {
